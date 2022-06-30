@@ -1,0 +1,17 @@
+name: novel-as-code
+version: 0.1.0
+
+authors:
+  - THIVEND <baptiste.thivend@protonmail.com>
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+
+targets:
+  novel-as-code:
+    main: src/novel-as-code.cr  
+
+crystal: 1.4.1
+
+license: MIT
