@@ -1,6 +1,12 @@
 # TODO: Write documentation for `Novel::As::Code`
-module Novel::As::Code
+require "kemal"
+
+module NovelAsCode
   VERSION = "0.1.0"
 
-  # TODO: Put your code here
+  get "/" do
+    "Hello, this is my novel!"
+  end
 end
+
+Kemal.run
